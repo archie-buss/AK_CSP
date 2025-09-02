@@ -1,5 +1,7 @@
+#AK 7th Variable practice
+
 your_name="archie"
-print:(your_name)
+print(your_name)
 one_digit="7"
 print(one_digit)
 two_digit="13"
