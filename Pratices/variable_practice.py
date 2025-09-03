@@ -10,8 +10,8 @@ breakfast="pancakes"
 print(breakfast)
 fav_color="blue"
 print(fav_color)
-School="UCAS"
-print
+school="UCAS"
+print(school)
 year="2025"
 print(year)
 eye_color="brown"
