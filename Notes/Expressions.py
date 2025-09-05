@@ -16,26 +16,42 @@ print("each friend gets", apples / friends, "apples")
 #2. do the equations(do the things)
 #3. display results
 # List ALL of the different mathematical operators (Give me the symbol and tell me what it does)
-number_1 = 14
-number_2 = 9
-print("addition(+):", number_1 + number_2)
-print("subtraction(-):", number_1 - number_2)
-print("multiplitation(*):", number_1 * number_2)
-print("division(/):", number_1 / number_2)
-print("exponents(**):", number_1 ** number_2)
-print("integer division:", number_1 // number_2)
-print("muldo(%):", number_1 % number_2)
+number_1 = int(input("tell me a number:\n"))
+number_2 = float(input("tell me another number:\n"))
+number_1 += number_2
+print("addition(+):", number_1)
+number_1 += number_2
+print("subtraction(-):", number_1)
+number_1 -= number_2
+print("multiplitation(*):", number_1)
+number_1 *= number_2
+print("division(/):", round(number_1, 2)) #round(number to round, number of decimal places)
+number_1 /= number_2
+print("exponents(**):", number_1)
+number_1 **= number_2
+print("integer division:", number_1)
+number_1 //= number_2
+print("muldo(%):", number_1)
+number_1 %= number_2
 # List ALL of the different assignment operators (Give me the symbols and what it does)
-
+#(+)means addition
+#(-)means subtraction    
+#(*)means multiplication
+#(/)means division
+#(//)means integer division
+#(%)means modulo
+#(**)means exponentiatioexonents
 # Why are expressions so important in programming?
-
+# Because we learn to use expressions for be able to create better code.
 # Average age of 4 people
 
 # integers in programming are whole numbers
 
 # floats in programming are numbers with decimals
 
-# mudolo = remainder of a division problem
+# mudlo = remainder of a division problem
+
+
 
 person1 = 14
 person2 = 13
