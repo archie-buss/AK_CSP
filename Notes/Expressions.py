@@ -40,7 +40,7 @@ number_1 %= number_2
 #(/)means division
 #(//)means integer division
 #(%)means modulo
-#(**)means exponentiatioexonents
+#(**)means exponents
 # Why are expressions so important in programming?
 # Because we learn to use expressions for be able to create better code.
 # Average age of 4 people
