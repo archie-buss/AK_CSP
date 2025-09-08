@@ -4,5 +4,5 @@ name = input("whats your name?")
 
 print("hello",name)
 
-print(fav_sub)
+print("fav_sub")
 print("big_num")
