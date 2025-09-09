@@ -16,9 +16,9 @@
 #Describe what each of the methods below does:
 #find()to find a specific letter or word in a string
 #concatenate ()add one or more strings together
-#upper(to make all letters uppercase)
-#lower(to make all letters lowercase)
-#strip(to remove the spaces at the beginning and end of a string)
+#upper()to make all letters uppercase
+#lower()to make all letters lowercase
+#strip()to remove the spaces at the beginning and end of a string
 
 #" content "
 #'content'
