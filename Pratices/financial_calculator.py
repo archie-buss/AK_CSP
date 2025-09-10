@@ -1,42 +1,22 @@
-#AK 7th budget calculator
+# AK 7th budget calculator
 
-num_one = int(input ("tell me your monthly income:\n"))
-num_two = int(input("tell me your rent:\n"))
-num_three = int(input("tell me your utilities cost:\n"))|
-num_four = int(input("tell me how much your groceries cost:\n"))|
-num_five = int(input("tell me how much your transportation cost:\n"))|
-10
-11
-income = num_one
-12
-expenses = num_two + num_three + num_four + num_five
-13
-print("Your income is:", income)
-14
-savings = income* .1
-15
-print("You should put this much of your income into savings:", savings)
-16
-spending = income-(expenses+savings)
-17
-print("you have this much spending money:", spending)
-18
-19
-rent_ percent = (num_two/income)*100|
-20
-print("This percentage of your income goes to rent:", rent_percent)
-211
-utilities_percent = (num_three/income) *100
-22
-23
-print("This percentage of your income goes to utilities:", round(utilities_percent,1))
-24
-groceries_percent = (num_four/income) *100|
-25
-26|
-print("This percentage of your income goes to groceries:", round(groceries_percent))
-27
-transportation_percent = (num_five/income) *100
-281
-29
-print("This percentage of your income goes to transportation:", round(transportation_percent))
+
+income = float(input("What is your monthly income: "))
+rent = float(input("What is your monthly rent/mortgage: "))
+utilities = float(input("What is your monthly utilities: "))
+groceries = float(input("What is your monthly groceries: "))
+transportation = float(input("What is your monthly transportation?"))
+rent_percent = (rent / income) * 100
+utilities_percent = (utilities / income) * 100
+groceries_percent = (groceries / income) * 100
+transportation_percent = (transportation / income) * 100
+savings = income * 0.10
+savings_percent = 10
+total_expenses = rent + utilities + groceries + transportation + savings
+leftover = income - total_expenses
+print("Your rent is $", rent, "and that is", round(rent_percent), "% of your income.")
+print("Your utilities are $", utilities, "and that is", round(utilities_percent), "% of your income.")
+print("Your groceries are $", groceries, "and that is", round(groceries_percent), "% of your income.")
+print("Your transportation is $", transportation, "and that is", round(transportation_percent), "% of your income.")
+print("You should save $", savings, "a month, that is", savings_percent, "% of your income.")
+print("You have $", leftover, "of spending money each month!")
