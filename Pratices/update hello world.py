@@ -1,8 +1,8 @@
 #AK 7th update hello world
 
 
-def name():
+def hello(name):
     name = input("whats your name?")
 
     print(f"hello", {name})
-name()    
+hello("archie")  
