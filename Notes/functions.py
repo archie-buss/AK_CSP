@@ -37,7 +37,7 @@ charisma = roll(0)
 
 #What return statements are
 return random.randint(2, 18) + mod
-what you wnat to end the function
+#what you wnat to end the function
 #How to use return statements in a program
 return random.randint(2, 18) + mod
 
