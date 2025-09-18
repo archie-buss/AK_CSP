@@ -18,11 +18,11 @@
 #== : is a question
 #!= : now equal too/not
 #What are the 3 logical operators?
-
+# and, or, not# And allow us to combime multiple conditions
 #What are logical operators for?
-
+# they tell the code if its true, not true, or else#
 #What does a nested conditional statement do?
-
+# ony happens inside another conditional
 
 #homework = input("is your homework done?").#strip().capitalize()
 #if homework == "no":
@@ -30,14 +30,35 @@
 #else:
 #   print("Yes you can go!")
 
-grade = 60
+#grade = 60
+
+#if grade >= 90:
+    #print(f"You have a {grade}%, you get an A!")
+#elif grade >= 80:
+    #print(f"You have a {grade}%, that is a B!")
+#elif grade >= 70:
+    #print(f"You have a {grade}%, that is a C!")
+
+#else:
+    #print:(f"You have a {grade}%, that is a D or lower.")
+
+#name = input("what is your name?")
+
+#if name == "Ms LaRose":#
+    #print("you are the teacher!")
+#elif name == "tia" or name == "ashley":
+    #print("you are a TA")
+#else:
+    #print(f" hello, {name}, you are a student")
+
+
+grade = 97
 
 if grade >= 90:
+    if grade > 100:
+        print("Thats not possible you cheated!")
     print(f"You have a {grade}%, you get an A!")
 elif grade >= 80:
     print(f"You have a {grade}%, that is a B!")
 elif grade >= 70:
     print(f"You have a {grade}%, that is a C!")
-
-else:
-    print:(f"You have a {grade}%, that is a D or lower.")
