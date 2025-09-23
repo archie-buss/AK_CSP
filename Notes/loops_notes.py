@@ -19,12 +19,12 @@
 
 
 # for loop
-foods = ["Chocolate", "Pasta", "Brownies", "Cookies", "Garlic", "Bread", "Fajitas"]
-for food in foods:
-    print(f"{food} is my favorite food!")
+#foods = ["Chocolate", "Pasta", "Brownies", "Cookies", "Garlic", "Bread", "Fajitas"]
+#for food in foods:
+    #print(f"{food} is my favorite food!")
 
-for x in range(1,20):
-    print(x)
+#for x in range(1,20):
+    #print(x)
 
 # while loop
 
@@ -36,22 +36,22 @@ for x in range(1,20):
 
 
 #correct while loop
-#i = 1
+i = 1
 
 
-#while i < 20:
-    #print(i)
-    #i+=1
+while i < 20:
+    print(i)
+    i+=1
 
-#x = 1
+x = 1
 
-#hile x < 21:
-    #if x % 2 == 0:
-        #print(f"{x} is an even number")
+while x < 21:
+    if x % 2 == 0:
+        print(f"{x} is an even number")
 
-    #else:
-        #print(f"{x} is an odd number")
-    #x += 1
+    else:
+        print(f"{x} is an odd number")
+    x += 1
 
 #import random
 
