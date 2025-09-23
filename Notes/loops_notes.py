@@ -19,12 +19,12 @@
 
 
 # for loop
-#foods = ["Chocolate", "Pasta", "Brownies", "Cookies", "Garlic", "Bread", "Fajitas"]
-#for food in foods:
-    #print(f"{food} is my favorite food!")
+foods = ["Chocolate", "Pasta", "Brownies", "Cookies", "Garlic", "Bread", "Fajitas"]
+for food in foods:
+    print(f"{food} is my favorite food!")
 
-#for x in range(1,20):
-    #print(x)
+for x in range(1,20):
+    print(x)
 
 # while loop
 
