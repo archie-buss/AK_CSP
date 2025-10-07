@@ -1,10 +1,8 @@
 //AK 7th variables practice
 
 #include <stdio.h> 
-#include <stdlib.h>
 
-int main() {
-    // Variable declarations
+int main(void) {
     char name[] = "Archie kamore";
     int number = 7;
     float gpa = 3.8;
