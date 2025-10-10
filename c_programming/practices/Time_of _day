@@ -1,0 +1,20 @@
+//AK 7th time of day
+
+#include <stdio.h>
+#include <string.h>
+
+int main(void) {
+    char time_of_day[10];
+    printf("what is the time of day in military time?");
+    scanf("%s", time_of_day);
+
+    if (time_of_day == "24")
+        printf("good evening\n");
+    else if (time_of_day == "18")
+        printf("morning\n");
+    else if (time_of_day > "12" && time_of_day < "12")
+        printf("afternoon\n");
+        printf("invalid input\n");
+
+ return 0;
+}
