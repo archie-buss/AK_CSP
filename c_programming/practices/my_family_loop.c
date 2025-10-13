@@ -2,7 +2,7 @@
 
 #include <stdio.h>
 #include <string.h>
-
+                
 
 int main(void) {
     char family[5][20] = {"Mom", "Dad", "Sister", "Brother", "Grandma"};

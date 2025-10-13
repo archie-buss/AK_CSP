@@ -39,6 +39,6 @@ int main(void) {
 //How do you make lists in C?
 // using arrays
 //How do you make for loops in C? 
-// using the for keyword
+// using the for loop
 //How do you make while loops in C?
 // using the while loop
