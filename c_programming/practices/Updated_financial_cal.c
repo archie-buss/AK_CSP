@@ -31,3 +31,4 @@ int main(void) {
     printf("You have $%.2f of spending money each month!\n", spending_money);
 
     return 0;
+}
